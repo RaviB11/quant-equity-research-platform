@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+
+# Databases and logs (rebuilt by the pipeline)
+data/*.db
+data/*.db-*
+data/archive/
+logs/*.log
+
+# Raw downloads: provider terms generally do not allow redistributing their data
+data_raw/*
+!data_raw/sample_universe.csv
+!data_raw/.gitkeep
+
+# Synthetic demo outputs are rebuilt by `--mode demo`; commit your live outputs/ instead
+outputs/demo_synthetic/

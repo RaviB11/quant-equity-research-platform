@@ -1,0 +1,15 @@
+.git
+.venv
+**/__pycache__
+**/*.egg-info
+.pytest_cache
+.env
+data/*.db
+data/*.db-*
+data/archive
+data_raw/*
+!data_raw/sample_universe.csv
+outputs/*
+!outputs/.gitkeep
+logs/*
+!logs/.gitkeep

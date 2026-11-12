@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eqscreen"
+version = "0.7.6"
+description = "Equity screening and valuation-factor pipeline with point-in-time backtesting"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "scikit-learn>=1.3",
+    "requests>=2.31",
+    "lxml>=4.9",
+    "pyyaml>=6.0",
+    "yfinance>=0.2.50",
+    "plotly>=5.18",
+    "matplotlib>=3.8",
+    "python-dotenv>=1.0",
+    "markdown>=3.5",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "nbformat>=5.9", "nbclient>=0.9", "ipykernel>=6.25"]
+pdf = ["playwright>=1.40"]          # then: python -m playwright install chromium
+
+[project.scripts]
+eqscreen = "eqscreen.pipeline:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

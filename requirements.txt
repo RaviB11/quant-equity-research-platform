@@ -1,0 +1,13 @@
+# Runtime dependencies (same as pyproject.toml). Prefer: pip install -e ".[dev]"
+pandas>=2.2
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.3
+requests>=2.31
+lxml>=4.9
+pyyaml>=6.0
+yfinance>=0.2.50
+plotly>=5.18
+matplotlib>=3.8
+python-dotenv>=1.0
+markdown>=3.5
