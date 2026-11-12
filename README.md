@@ -1,16 +1,9 @@
 # Quantitative Equity Research & Valuation Platform
 
-A quantitative stock screen for the S&P 500. It pulls prices and company financials from
-free sources, computes valuation multiples and factor scores, ranks stocks to decide
-which deserve fundamental research first, and tests whether the ranking would have
-picked outperformers, using only figures that were public, in the version that was
-public, at each point in time.
-
-Stocks are scored only in months they were S&P 500 members (membership rebuilt from
-Wikipedia's dated change history), but companies that left the index are mostly missing
-from free price data, so backtest returns still carry **survivorship bias** (see
-[Limitations](#limitations)). **Backtest results are illustrative, not definitive**: a
-retrospective research diagnostic, not evidence of investable performance.
+A Python and SQL-based research platform for fundamental equity analysis, multifactor screening, intrinsic valuation, statistical backtesting, and machine learning.
+The platform integrates financial statements and market data to evaluate valuation, momentum, profitability, and earnings quality. It supports point-in-time financial analysis using versioned SEC filings, while explicitly documenting the limitations of alternative data providers.
+Research outputs include ranked equity screens, five-year discounted cash flow valuations, scenario and sensitivity analysis, backtesting diagnostics, and analyst-oriented reports.
+Research prototype: Backtesting results are retrospective and subject to survivorship, data availability, and execution assumptions. Synthetic demonstrations are not evidence of real-world investment performance.
 
 **What it covers**
 
