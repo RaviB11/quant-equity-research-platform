@@ -70,8 +70,8 @@ reproducible: it is generated from a fixed seed.
 ## Quickstart (Windows, PowerShell)
 
 ```powershell
-git clone <your-repo-url> equity-screener      # TODO: replace with the published GitHub URL
-cd equity-screener
+git clone https://github.com/RaviB11/quant-equity-research-platform.git equity-screener      # TODO: replace with the published GitHub URL
+cd quant-equity-research-platform
 powershell -ExecutionPolicy Bypass -File scripts\setup.ps1
 ```
 
