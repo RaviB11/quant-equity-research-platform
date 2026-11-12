@@ -1,7 +1,5 @@
 # Quantitative Equity Research & Valuation Platform
 
-# Quantitative Equity Research & Valuation Platform
-
 A Python and SQL-based research platform for fundamental equity analysis, multifactor screening, intrinsic valuation, statistical backtesting, and machine learning.
 
 The platform integrates financial statements and market data to evaluate valuation, momentum, profitability, and earnings quality. It supports point-in-time financial analysis using versioned SEC filings, while explicitly documenting the limitations of alternative data providers.
