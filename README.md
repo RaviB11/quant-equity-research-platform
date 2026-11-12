@@ -1,4 +1,4 @@
-# Equity Screening & Valuation Factors
+# Quantitative Equity Research & Valuation Platform
 
 A quantitative stock screen for the S&P 500. It pulls prices and company financials from
 free sources, computes valuation multiples and factor scores, ranks stocks to decide
